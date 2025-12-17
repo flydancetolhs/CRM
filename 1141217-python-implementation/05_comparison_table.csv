@@ -1,0 +1,11 @@
+項目,開發語言,數據庫,前端框架,主要特色,適用場景,開源地址
+SuiteCRM,PHP,MySQL,Bootstrap,功能全面，社區活躍,通用企業,https://github.com/salesagility/SuiteCRM
+Vtiger CRM,PHP,MySQL,jQuery,穩定可靠，報表強大,各種規模企業,https://github.com/vtiger-crm/vtigercrm
+OroCRM,PHP,MySQL/PostgreSQL,Symfony,B2B優化，電商集成,電商和B2B,
+EspoCRM,PHP,MySQL/MariaDB,Backbone.js,輕量級，易於定制,中小企業,
+CiviCRM,PHP,MySQL/PostgreSQL,jQuery,非營利組織專用,非營利組織,
+Dolibarr,PHP,MySQL/PostgreSQL,jQuery,ERP+CRM集成,中小企業,
+Zurmo,PHP,MySQL,Yii,遊戲化設計,銷售驅動型企業,
+YetiForce,PHP,MySQL,Bootstrap,安全性高，功能豐富,企業級應用,
+X2CRM,PHP,MySQL,Yii,靈活配置，功能強大,各種規模企業,
+Cordys CRM,Java/Spring Boot,MySQL/Redis,Vue.js,AI驅動，現代化技術,新一代數字化企業,https://github.com/1Panel-dev/CordysCRM

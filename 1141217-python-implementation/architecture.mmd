@@ -1,0 +1,66 @@
+graph TD
+    subgraph "用戶端 (Client)"
+        A["Web瀏覽器/移動應用"]
+    end
+
+    subgraph "前端 (Frontend - Vue.js)"
+        B("用戶界面")
+        C("路由管理")
+        D("狀態管理")
+    end
+
+    subgraph "後端 (Backend - Spring Boot)"
+        E("API Gateway")
+        F("客戶管理模塊")
+        G("銷售管理模塊")
+        H("市場營銷模塊")
+        I("客戶服務模塊")
+        J("AI智能引擎")
+        K("BI數據分析")
+    end
+
+    subgraph "數據存儲 (Data Storage)"
+        L["MySQL數據庫"]
+        M["Redis緩存"]
+    end
+
+    subgraph "第三方集成 (Integrations)"
+        N("企業微信")
+        O("釘釘")
+        P("飛書")
+        Q("郵件服務")
+    end
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    D --> E
+
+    E --> F
+    E --> G
+    E --> H
+    E --> I
+
+    F --> L
+    G --> L
+    H --> L
+    I --> L
+
+    F --> M
+    G --> M
+    H --> M
+    I --> M
+
+    E --> J
+    E --> K
+
+    J --> L
+    K --> L
+
+    H --> Q
+    I --> Q
+
+    E --> N
+    E --> O
+    E --> P
